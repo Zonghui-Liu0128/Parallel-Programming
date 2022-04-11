@@ -1,0 +1,46 @@
+
+# mpiexec: MPI Program startup
+
+
+# mpiexec: Running in job 5185585.pbs at Wed 23 Feb 18:01:35 GMT 2022
+# mpiexec: Fabric configuration:
+# mpiexec: node class CX3
+# mpiexec: libfabric provider verbs
+# mpiexec: libfabric inferface eth0
+# mpiexec: MPI-IO configuration on / gpfs
+# mpiexec: full path to program is /rds/general/user/zl1021/home/MPIFiles/WaveEquation/build5/WaveEquation
+# mpiexec: program arguments are: 
+# mpiexec: 8 ranks allocated via PBS select
+# mpiexec: 4 OpenMP threads / rank allocated by PBS select
+# mpiexec: 8 ranks per node
+# mpiexec: There are 256 cores/node. 32 will be used for this job
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: Node is shared. Disabling process pinning
+# mpiexec: machinefile configured as:
+cx3-7-7.cx3.hpc.ic.ac.uk:8
+#
+# mpiexec: Checking all nodes are ONLINE using ping:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: Checking all nodes are ONLINE using ssh:
+# cx3-7-7.cx3.hpc.ic.ac.uk : # mpiexec: Dynamic linking for /rds/general/user/zl1021/home/MPIFiles/WaveEquation/build5/WaveEquation:
+	linux-vdso.so.1 (0x00007ffe0774e000)
+	libmpicxx.so.12 => /apps/mpi/intel/2019.6.166/intel64/lib/libmpicxx.so.12 (0x0000153f76f18000)
+	libmpifort.so.12 => /apps/mpi/intel/2019.6.166/intel64/lib/libmpifort.so.12 (0x0000153f76b5a000)
+	libmpi.so.12 => /apps/mpi/intel/2019.6.166/intel64/lib/release/libmpi.so.12 (0x0000153f75ac0000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x0000153f758bc000)
+	librt.so.1 => /lib64/librt.so.1 (0x0000153f756b3000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x0000153f75493000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x0000153f750fe000)
+	libm.so.6 => /lib64/libm.so.6 (0x0000153f74d7c000)
+	libgcc_s.so.1 => /apps/intel/2017.6/clck/2017.2.019/lib/intel64/libgcc_s.so.1 (0x0000153f74b66000)
+	libc.so.6 => /lib64/libc.so.6 (0x0000153f747a4000)
+	libfabric.so.1 => /apps/mpi/intel/2019.6.166/libfabric/lib/libfabric.so.1 (0x0000153f7455f000)
+	/lib64/ld-linux-x86-64.so.2 (0x0000153f77138000)
+# mpiexec: launch started at Wed 23 Feb 18:01:36 GMT 2022
+# mpiexec: launching program...
+# mpiexec: /rds/general/user/zl1021/home/MPIFiles/WaveEquation/build5/WaveEquation 
+# mpiexec: PROGRAM OUTPUT FOLLOWS
+(cx3-7-7.cx3.hpc.ic.ac.uk:0,1,2,3,4,5,6,7)
+
+Total time consumption: 1.13882 s
+# mpiexec: finished at Wed 23 Feb 18:02:01 GMT 2022

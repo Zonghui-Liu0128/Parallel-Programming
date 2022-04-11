@@ -1,0 +1,60 @@
+
+# mpiexec: MPI Program startup
+
+
+# mpiexec: Running in job 5186255.pbs at Wed 23 Feb 19:54:53 GMT 2022
+# mpiexec: Fabric configuration:
+# mpiexec: node class CX3
+# mpiexec: libfabric provider verbs
+# mpiexec: libfabric inferface eth0
+# mpiexec: MPI-IO configuration on / gpfs
+# mpiexec: full path to program is /rds/general/user/zl1021/home/MPIFiles/WaveEquation/build/WaveEquation
+# mpiexec: program arguments are: 
+# mpiexec: 256 ranks allocated via PBS select
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: 32 ranks per node
+# mpiexec: There are 256 cores/node. 32 will be used for this job
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: Node is shared. Disabling process pinning
+# mpiexec: machinefile configured as:
+cx3-7-0.cx3.hpc.ic.ac.uk:32
+cx3-7-11.cx3.hpc.ic.ac.uk:32
+cx3-7-12.cx3.hpc.ic.ac.uk:32
+cx3-7-13.cx3.hpc.ic.ac.uk:32
+cx3-7-16.cx3.hpc.ic.ac.uk:32
+cx3-7-1.cx3.hpc.ic.ac.uk:32
+cx3-7-21.cx3.hpc.ic.ac.uk:32
+cx3-7-27.cx3.hpc.ic.ac.uk:32
+#
+# mpiexec: Checking all nodes are ONLINE using ping:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: Checking all nodes are ONLINE using ssh:
+# cx3-7-0.cx3.hpc.ic.ac.uk : # cx3-7-11.cx3.hpc.ic.ac.uk : # cx3-7-12.cx3.hpc.ic.ac.uk : # cx3-7-13.cx3.hpc.ic.ac.uk : # cx3-7-16.cx3.hpc.ic.ac.uk : # cx3-7-1.cx3.hpc.ic.ac.uk : # cx3-7-21.cx3.hpc.ic.ac.uk : # cx3-7-27.cx3.hpc.ic.ac.uk : # mpiexec: Dynamic linking for /rds/general/user/zl1021/home/MPIFiles/WaveEquation/build/WaveEquation:
+	linux-vdso.so.1 (0x00007fff3c147000)
+	libmpicxx.so.12 => /apps/mpi/intel/2019.6.166/intel64/lib/libmpicxx.so.12 (0x000014e314cde000)
+	libmpifort.so.12 => /apps/mpi/intel/2019.6.166/intel64/lib/libmpifort.so.12 (0x000014e314920000)
+	libmpi.so.12 => /apps/mpi/intel/2019.6.166/intel64/lib/release/libmpi.so.12 (0x000014e313886000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x000014e313682000)
+	librt.so.1 => /lib64/librt.so.1 (0x000014e313479000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x000014e313259000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x000014e312ec4000)
+	libm.so.6 => /lib64/libm.so.6 (0x000014e312b42000)
+	libgcc_s.so.1 => /apps/intel/2017.6/clck/2017.2.019/lib/intel64/libgcc_s.so.1 (0x000014e31292c000)
+	libc.so.6 => /lib64/libc.so.6 (0x000014e31256a000)
+	libfabric.so.1 => /apps/mpi/intel/2019.6.166/libfabric/lib/libfabric.so.1 (0x000014e312325000)
+	/lib64/ld-linux-x86-64.so.2 (0x000014e314efe000)
+# mpiexec: launch started at Wed 23 Feb 19:54:54 GMT 2022
+# mpiexec: launching program...
+# mpiexec: /rds/general/user/zl1021/home/MPIFiles/WaveEquation/build/WaveEquation 
+# mpiexec: PROGRAM OUTPUT FOLLOWS
+(cx3-7-0.cx3.hpc.ic.ac.uk:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31)
+(cx3-7-11.cx3.hpc.ic.ac.uk:32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63)
+(cx3-7-12.cx3.hpc.ic.ac.uk:64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95)
+(cx3-7-13.cx3.hpc.ic.ac.uk:96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127)
+(cx3-7-16.cx3.hpc.ic.ac.uk:128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159)
+(cx3-7-1.cx3.hpc.ic.ac.uk:160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191)
+(cx3-7-21.cx3.hpc.ic.ac.uk:192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223)
+(cx3-7-27.cx3.hpc.ic.ac.uk:224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255)
+
+Total time consumption: 0.988083 s
+# mpiexec: finished at Wed 23 Feb 19:55:00 GMT 2022

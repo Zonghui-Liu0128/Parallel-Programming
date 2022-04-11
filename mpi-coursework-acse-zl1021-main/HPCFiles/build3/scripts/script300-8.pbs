@@ -1,0 +1,8 @@
+#PBS -N 300-8
+#PBS -l walltime=1:00:00
+#PBS -l select=1:ncpus=32:mpiprocs=8:mem=1GB
+
+module load intel-suite
+module load mpi
+
+mpiexec ~/MPIFiles/WaveEquation/build3/WaveEquation
